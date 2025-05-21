@@ -1,175 +1,177 @@
-let pitanje1 = {
-    tekst: 'Koji je glavni grad Kipra?',
-    odgovori: ['Limasol', 'Pafos', 'Larnaka', 'Nikozija'],
-    indeksKorektnogOdgovora : 3
+let question1 = {
+    text: 'What is the capital of Cyprus?',
+    answers: ['Limassol', 'Paphos', 'Larnaca', 'Nicosia'],
+    correctAnswerIndex: 3
 };
 
-let pitanje2 = {
-    tekst: 'Koji je glavni grad Lihtenštajna?',
-    odgovori: ['Vaduz', 'Ščan', 'Trisen', 'Balzers'],
-    indeksKorektnogOdgovora : 0
+let question2 = {
+    text: 'What is the capital of Liechtenstein?',
+    answers: ['Vaduz', 'Schaan', 'Triesen', 'Balzers'],
+    correctAnswerIndex: 0
 };
 
-let pitanje3 = {
-    tekst: 'Koji je glavni grad Mongolije?',
-    odgovori: ['Moron', 'Erdenet', 'Darkan', 'Ulan Bator'],
-    indeksKorektnogOdgovora : 3
+let question3 = {
+    text: 'What is the capital of Mongolia?',
+    answers: ['Moron', 'Erdenet', 'Darkhan', 'Ulaanbaatar'],
+    correctAnswerIndex: 3
 };
 
-let pitanje4 = {
-    tekst: 'Koji je glavni grad Papue Nove Gvineje?',
-    odgovori: ['Lae', 'Port Moresbi', 'Arava', 'Mount Hagen'],
-    indeksKorektnogOdgovora : 1
+let question4 = {
+    text: 'What is the capital of Papua New Guinea?',
+    answers: ['Lae', 'Port Moresby', 'Arawa', 'Mount Hagen'],
+    correctAnswerIndex: 1
 };
 
-let pitanje5 = {
-    tekst: 'Koji je glavni grad Australije?',
-    odgovori: ['Melburn', 'Brizbejn', 'Pert', 'Kanbera'],
-    indeksKorektnogOdgovora : 3
+let question5 = {
+    text: 'What is the capital of Australia?',
+    answers: ['Melbourne', 'Brisbane', 'Perth', 'Canberra'],
+    correctAnswerIndex: 3
 };
 
-let pitanje6 = {
-    tekst: 'Koji je glavni grad Tanzanije?',
-    odgovori: ['Tabora', 'Singida', 'Dodoma', 'Dar-es-Salam'],
-    indeksKorektnogOdgovora : 2
+let question6 = {
+    text: 'What is the capital of Tanzania?',
+    answers: ['Tabora', 'Singida', 'Dodoma', 'Dar es Salaam'],
+    correctAnswerIndex: 2
 };
 
-let pitanje7 = {
-    tekst: 'Koji je glavni grad Kanade?',
-    odgovori: ['Toronto', 'Montreal', 'Edmonton', 'Otava'],
-    indeksKorektnogOdgovora : 3
+let question7 = {
+    text: 'What is the capital of Canada?',
+    answers: ['Toronto', 'Montreal', 'Edmonton', 'Ottawa'],
+    correctAnswerIndex: 3
 };
 
-let pitanje8 = {
-    tekst: 'Koji je glavni grad Libana?',
-    odgovori: ['Tripoli', 'Bejrut', 'Sidon', 'Tir'],
-    indeksKorektnogOdgovora : 1
+let question8 = {
+    text: 'What is the capital of Lebanon?',
+    answers: ['Tripoli', 'Beirut', 'Sidon', 'Tyre'],
+    correctAnswerIndex: 1
 };
 
-let pitanje9 = {
-    tekst: 'Koji je glavni grad Maroka?',
-    odgovori: ['Kazablanka', 'Meknes', 'Rabat', 'Marakeš'],
-    indeksKorektnogOdgovora : 2
+let question9 = {
+    text: 'What is the capital of Morocco?',
+    answers: ['Casablanca', 'Meknes', 'Rabat', 'Marrakesh'],
+    correctAnswerIndex: 2
 };
 
-let pitanje10 = {
-    tekst: 'Koji je glavni grad Urugvaja?',
-    odgovori: ['Montevideo', 'Salto', 'Sjudad de la Kosta', 'Pajsandu'],
-    indeksKorektnogOdgovora : 0
+let question10 = {
+    text: 'What is the capital of Uruguay?',
+    answers: ['Montevideo', 'Salto', 'Ciudad de la Costa', 'Paysandú'],
+    correctAnswerIndex: 0
 };
 
-let pitanje11 = {
-    tekst: 'Koji je glavni grad Turske?',
-    odgovori: ['Antalija', 'Istambul', 'Ankara', 'Izmir'],
-    indeksKorektnogOdgovora : 2
+let question11 = {
+    text: 'What is the capital of Turkey?',
+    answers: ['Antalya', 'Istanbul', 'Ankara', 'Izmir'],
+    correctAnswerIndex: 2
 };
 
-let pitanje12 = {
-    tekst: 'Koji je glavni grad Indije?',
-    odgovori: ['Mumbaj', 'Nju Delhi', 'Kolkata', 'Čenaj'],
-    indeksKorektnogOdgovora : 1
+let question12 = {
+    text: 'What is the capital of India?',
+    answers: ['Mumbai', 'New Delhi', 'Kolkata', 'Chennai'],
+    correctAnswerIndex: 1
 };
 
-let pitanje13 = {
-    tekst: 'Koji je glavni grad Brazila?',
-    odgovori: ['Rio de Ženeiro', 'Brazilija', 'Sao Paulo', 'Salvador'],
-    indeksKorektnogOdgovora : 1
+let question13 = {
+    text: 'What is the capital of Brazil?',
+    answers: ['Rio de Janeiro', 'Brasília', 'São Paulo', 'Salvador'],
+    correctAnswerIndex: 1
 };
 
-let pitanje14 = {
-    tekst: 'Koji je glavni grad Švajcarske?',
-    odgovori: ['Cirih', 'Ženeva', 'Bern', 'Bazel'],
-    indeksKorektnogOdgovora : 2
+let question14 = {
+    text: 'What is the capital of Switzerland?',
+    answers: ['Zurich', 'Geneva', 'Bern', 'Basel'],
+    correctAnswerIndex: 2
 };
 
-let pitanje15 = {
-    tekst: 'Koji je glavni grad Izraela?',
-    odgovori: ['Tel Aviv', 'Haifa', 'Jerusalim', 'Holon'],
-    indeksKorektnogOdgovora : 0
+let question15 = {
+    text: 'What is the capital of Israel?',
+    answers: ['Tel Aviv', 'Haifa', 'Jerusalem', 'Holon'],
+    correctAnswerIndex: 0
 };
 
-let pitanja = [pitanje1, pitanje2, pitanje3, pitanje4, pitanje5, pitanje6, pitanje7, pitanje8, pitanje9, pitanje10, pitanje11, pitanje12, pitanje13, pitanje14, pitanje15];
+let questions = [
+    question1, question2, question3, question4, question5,
+    question6, question7, question8, question9, question10,
+    question11, question12, question13, question14, question15
+];
 
-let mixPitanja = [];
+let mixedQuestions = [];
 
-for(let i = pitanja.length - 1; i >= 0 ; i--) {
-    let randomIndex = Math.floor(Math.random()* (i + 1));
-    mixPitanja[i] = pitanja[randomIndex];
-    pitanja[randomIndex] = pitanja[i];
+for (let i = questions.length - 1; i >= 0; i--) {
+    let randomIndex = Math.floor(Math.random() * (i + 1));
+    mixedQuestions[i] = questions[randomIndex];
+    questions[randomIndex] = questions[i];
 }
 
-let divForma = document.getElementById('forma');
-let forma = document.createElement('form');
-divForma.appendChild(forma);
+let divForm = document.getElementById('form');
+let form = document.createElement('form');
+divForm.appendChild(form);
 
-for(let i = 0; i < 5; i++) {
-    let sekcija = document.createElement('section'); 
-    forma.append(sekcija);
+for (let i = 0; i < 5; i++) {
+    let section = document.createElement('section');
+    form.append(section);
 
-    let labela = document.createElement('label');
+    let label = document.createElement('label');
+    label.innerHTML = `${i + 1}.  ${mixedQuestions[i].text} <br>`;
+    section.append(label);
 
-    labela.innerHTML = `${i + 1}.  ${mixPitanja[i].tekst} <br>`;
-    
-    sekcija.append(labela);
-    
-    for(let j = 0; j < mixPitanja[i].odgovori.length; j++) {
-
-        let btnRadio = document.createElement('input'); 
-        btnRadio.type = 'radio';
-        btnRadio.name = (i + 1);
-        btnRadio.value = false;
-        if(j == mixPitanja[i].indeksKorektnogOdgovora) {
-            btnRadio.value = true;
+    for (let j = 0; j < mixedQuestions[i].answers.length; j++) {
+        let radioBtn = document.createElement('input');
+        radioBtn.type = 'radio';
+        radioBtn.name = (i + 1);
+        radioBtn.value = false;
+        if (j === mixedQuestions[i].correctAnswerIndex) {
+            radioBtn.value = true;
         }
-        if(j == 0) {
-            btnRadio.setAttribute('checked', 'true');
+        if (j === 0) {
+            radioBtn.setAttribute('checked', 'true');
         }
-        sekcija.append(btnRadio);
+        section.append(radioBtn);
 
-        let span = document.createElement('span'); 
-        span.innerHTML = ` ${mixPitanja[i].odgovori[j]}<br>`;
-        sekcija.append(span);
+        let span = document.createElement('span');
+        span.innerHTML = ` ${mixedQuestions[i].answers[j]}<br>`;
+        section.append(span);
     }
 }
 
-let btnPosaljiOdgovore = document.createElement('input');
-btnPosaljiOdgovore.type = 'submit';
-btnPosaljiOdgovore.value = 'Pošalji odgovore';
+let btnSubmitAnswers = document.createElement('input');
+btnSubmitAnswers.type = 'submit';
+btnSubmitAnswers.value = 'Submit Answers';
 
-let btnNovaPitanja = document.createElement('input');
-btnNovaPitanja.type = 'submit';
-btnNovaPitanja.value = 'Nova pitanja';
-btnNovaPitanja.style.marginLeft = '20px';
+let btnNewQuestions = document.createElement('input');
+btnNewQuestions.type = 'submit';
+btnNewQuestions.value = 'New Questions';
+btnNewQuestions.style.marginLeft = '20px';
 
-forma.append(btnPosaljiOdgovore, btnNovaPitanja);
+form.append(btnSubmitAnswers, btnNewQuestions);
 
-let ispis = document.getElementById('ispis');
+let output = document.getElementById('output');
 
-btnPosaljiOdgovore.addEventListener('click', (e) => {
+btnSubmitAnswers.addEventListener('click', (e) => {
     e.preventDefault();
 
-    ispis.innerHTML = '';
+    output.innerHTML = '';
 
-    for(let i = 0; i < 5; i++) {
-        let btnRadio_i = forma.querySelectorAll(`input[name="${i + 1}"]`);
+    for (let i = 0; i < 5; i++) {
+        let radioBtns = form.querySelectorAll(`input[name="${i + 1}"]`);
+        let correct = false;
 
-        let tacnost = false;
-
-        for(let j = 0; j < mixPitanja[i].odgovori.length; j++) {
-            if(btnRadio_i[j].checked && btnRadio_i[j].value == 'true') {
-                tacnost = true;
-            } 
-            btnRadio_i[j].disabled = true;
+        for (let j = 0; j < mixedQuestions[i].answers.length; j++) {
+            if (radioBtns[j].checked && radioBtns[j].value === 'true') {
+                correct = true;
+            }
+            radioBtns[j].disabled = true;
         }
-        if(tacnost) {
-            ispis.innerHTML += `<p style='color: green;'>Tacno ste odgovorili na ${i + 1}. pitanje</p>`;
+
+        if (correct) {
+            output.innerHTML += `<p style='color: green;'>You answered question ${i + 1} correctly.</p>`;
         } else {
-            ispis.innerHTML += `<p style='color: red;'>Niste tacno odgovorili na ${i + 1}. pitanje</p>`;
+            output.innerHTML += `<p style='color: red;'>You answered question ${i + 1} incorrectly.</p>`;
         }
     }
-    btnPosaljiOdgovore.disabled = true;
+
+    btnSubmitAnswers.disabled = true;
 });
 
-btnNovaPitanja.addEventListener('click', () => {
-    ispis.innerHTML = '';
+btnNewQuestions.addEventListener('click', () => {
+    output.innerHTML = '';
 });
